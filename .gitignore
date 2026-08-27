@@ -1,0 +1,36 @@
+node_modules
+.DS_Store
+dist
+.eslintcache
+*.cdix
+.parcel-cache
+.idea
+.vale/styles/RedHat
+**/test-resources
+**/coverage
+/kind
+/kind.exe
+/storybook/.storybook/themes.css
+/storybook/storybook-static/
+yarn.lock
+extensions/podman/assets/
+extensions-extra/
+packages/api-mocks-vitest/src/product.json
+packages/api-mocks-vitest/src/@podman-desktop/api.ts
+contexts/meta/
+
+# Build artifacts
+*.tsbuildinfo
+build/
+
+# Editor/IDE files
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
